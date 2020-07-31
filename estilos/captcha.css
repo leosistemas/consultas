@@ -1,0 +1,83 @@
+/* captcha */
+#popup {
+    position: absolute;
+    top:50%;
+    left:50vw;
+    margin: auto;
+    width: auto;
+    height: 30vh;
+    padding: 0px;
+    border-radius: 20%;
+	text-align: center;
+    background-color:#FE9A2E;
+	box-shadow: 30px 35px 35px #666666;
+    transform: translate(-50%,-50%);
+	z-index: 999;
+}
+/*
+.content-popup {
+	margin:0px auto;
+	margin-top:0px;
+	position:absolute;
+	padding:0px;
+	width:auto;
+	min-height:250px;
+	border-radius:20px;
+	background-color:#FE9A2E;
+	box-shadow: 30px 35px 35px #666666;
+}*/
+
+.cabecera h2{
+	color:red;
+	border-bottom: 1px solid #48484B;
+    margin-top: 0;
+    padding-bottom: 4px;
+}
+.f_cap{
+ margin-top: 10vh;
+    
+}
+
+
+
+#cap {font-family: "Times New Roman",monospace;
+	font-size: 44px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 3px;
+	text-align:center;
+	width: 200px;
+	box-shadow: 10px 10px 10px #666666;
+    margin-top: 20px;
+  	border-radius:20px;
+	text-transform:uppercase;
+}  
+#capbutton{
+font-family: "Georgia",monospace;
+	font-size: 24px;
+	font-weight: bold;
+  color: black;
+  background-color: #CCFF33;
+  box-shadow: 10px 10px 10px #666666;
+  margin-top: 10px;
+  border-radius:20px;
+  }
+  
+.cabecera{
+    left:5px;
+    text-align: center;
+    position:absolute;
+}
+.logocaptcha
+{
+    left:5px;
+    width: 7%;
+    height:calc(4em + 3vh);
+	position:absolute;
+}
+.close {
+	position: absolute;
+    top:10%
+    right: 15px;
+    padding: 0%;
+}  
