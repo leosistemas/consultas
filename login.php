@@ -2,7 +2,7 @@
 session_start();
 include("captcha/simple-php-captcha.php");$_SESSION['captcha'] = simple_php_captcha();
 $_SESSION['captcha']['image_src'];
-
+/*subiendo a git*/
 if(isset($_POST['int'])){$intent=$_POST['int'];}else{$intent=0;}
 
 include "includes/fb_con.php"; /*configuracion de conexio firebird*/
